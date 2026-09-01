@@ -1,0 +1,75 @@
+about:
+  description: Free and Open Source, Distributed, RESTful Search Engine
+  license: NOASSERTION
+  homepage: https://www.elastic.co/products/elasticsearch
+  head: 1a31626
+  archived: false
+  latestVersion: v9.5.2
+  collectedAt: 2026-09-01T05:20:43Z
+timeline:
+  created: 2010-02-08
+  lastCommit: 2026-09-01
+  lastRelease: 2026-08-20
+popularity:
+  star: 77886
+  watcher: 2634
+  fork: 26076
+  release: 261
+  contributor: 4006
+  pullRequest: 14257
+  issue: 47280
+language:
+  Java: 280144277
+  Groovy: 703042
+  StringTemplate: 398958
+  C++: 362731
+  TypeScript: 292418
+  Shell: 174344
+  ANTLR: 97524
+  Dockerfile: 44889
+  Batchfile: 20184
+  Python: 14404
+  PowerShell: 8151
+  Makefile: 7270
+  C: 6746
+  CSS: 5424
+  Emacs Lisp: 3341
+  AMPL: 3121
+  HTML: 2186
+  JavaScript: 1268
+  Mustache: 58
+  FreeMarker: 45
+totalLine: 282290381
+recent:
+  last30d:
+    since: 2026-08-02
+    release: 5
+    mergedPR: 1403
+    openPR: 333
+    closedIssue: 379
+    openIssue: 310
+    commit: 1094
+  last90d:
+    since: 2026-06-03
+    release: 13
+    mergedPR: 4417
+    openPR: 532
+    closedIssue: 1530
+    openIssue: 608
+    commit: 4116
+  last180d:
+    since: 2026-03-05
+    release: 26
+    mergedPR: 8612
+    openPR: 670
+    closedIssue: 3213
+    openIssue: 947
+    commit: 8353
+  last360d:
+    since: 2025-09-06
+    release: 55
+    mergedPR: 14864
+    openPR: 826
+    closedIssue: 5073
+    openIssue: 1391
+    commit: 13741
