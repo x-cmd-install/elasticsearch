@@ -4,24 +4,24 @@ about:
     Free and Open Source, Distributed, RESTful Search Engine
   license: NOASSERTION
   homepage: https://www.elastic.co/products/elasticsearch
-  head: 1d9913c
+  head: 555db0d
   archived: false
   latestVersion: v9.5.3
-  collectedAt: 2026-09-04T19:42:29Z
+  collectedAt: 2026-09-04T20:53:50Z
 timeline:
   created: 2010-02-08
   lastCommit: 2026-09-04
   lastRelease: 2026-09-03
 popularity:
-  star: 77891
+  star: 77892
   watcher: 2632
   fork: 26070
   release: 264
   contributor: 2263
-  pullRequest: 110744
+  pullRequest: 110745
   issue: 47339
 language:
-  Java: 282350925
+  Java: 282468466
   Groovy: 719416
   StringTemplate: 398958
   C++: 365487
@@ -41,64 +41,217 @@ language:
   JavaScript: 1268
   Mustache: 58
   FreeMarker: 45
-totalBytes: 284535265
+totalBytes: 284652806
 recent:
   last30d:
     since: 2026-08-05
     release: 7
-    mergedPR: 1402
-    openPR: 353
-    closedIssue: 402
-    openIssue: 298
-    commit: 1272
+    mergedPR: 1405
+    openPR: 351
+    closedIssue: 405
+    openIssue: 295
+    commit: 1274
   last60d:
     since: 2026-07-06
     release: 11
-    mergedPR: 3246
-    openPR: 493
-    closedIssue: 1003
-    openIssue: 498
-    commit: 2749
+    mergedPR: 3249
+    openPR: 491
+    closedIssue: 1006
+    openIssue: 495
+    commit: 2751
   last90d:
     since: 2026-06-06
     release: 16
-    mergedPR: 4520
-    openPR: 552
-    closedIssue: 1528
-    openIssue: 576
-    commit: 4294
+    mergedPR: 4523
+    openPR: 550
+    closedIssue: 1531
+    openIssue: 573
+    commit: 4296
   last180d:
     since: 2026-03-08
     release: 29
-    mergedPR: 8785
-    openPR: 692
-    closedIssue: 3268
-    openIssue: 926
-    commit: 8531
+    mergedPR: 8788
+    openPR: 690
+    closedIssue: 3271
+    openIssue: 923
+    commit: 8533
   last360d:
     since: 2025-09-09
     release: 58
-    mergedPR: 14984
-    openPR: 847
-    closedIssue: 5136
-    openIssue: 1363
-    commit: 13919
+    mergedPR: 14987
+    openPR: 845
+    closedIssue: 5139
+    openIssue: 1360
+    commit: 13921
   last720d:
     since: 2024-09-14
     release: 100
-    mergedPR: 29980
-    openPR: 1016
-    closedIssue: 9271
-    openIssue: 1925
-    commit: 24120
+    mergedPR: 29983
+    openPR: 1014
+    closedIssue: 9274
+    openIssue: 1922
+    commit: 24122
 total:
   release: 264
-  mergedPR: 96430
-  openPR: 1323
-  closedIssue: 42633
-  openIssue: 4706
-  commit: 105350
+  mergedPR: 96433
+  openPR: 1321
+  closedIssue: 42636
+  openIssue: 4703
+  commit: 105352
 ---
+path: /home/runner/.x-repo/github.com/elastic/elasticsearch
+collectedAt: 2026-09-04T20:55:39Z
+loc:
+  Java:
+    code: 5187556
+    comments: 793591
+    blanks: 774042
+    files: 31924
+  Yaml:
+    code: 383986
+    comments: 6745
+    blanks: 37874
+    files: 2380
+  Json:
+    code: 207046
+    comments: 0
+    blanks: 35
+    files: 1607
+  Groovy:
+    code: 14822
+    comments: 1517
+    blanks: 2220
+    files: 102
+  Xml:
+    code: 9748
+    comments: 1530
+    blanks: 515
+    files: 73
+  Cpp:
+    code: 6905
+    comments: 1067
+    blanks: 1087
+    files: 29
+  Toml:
+    code: 4432
+    comments: 1050
+    blanks: 830
+    files: 14
+  AsciiDoc:
+    code: 3552
+    comments: 50
+    blanks: 1122
+    files: 41
+  Sh:
+    code: 1426
+    comments: 602
+    blanks: 308
+    files: 26
+  Svg:
+    code: 906
+    comments: 4
+    blanks: 0
+    files: 283
+  Velocity:
+    code: 899
+    comments: 256
+    blanks: 74
+    files: 16
+  Dockerfile:
+    code: 713
+    comments: 201
+    blanks: 143
+    files: 12
+  Batch:
+    code: 516
+    comments: 2
+    blanks: 138
+    files: 24
+  CHeader:
+    code: 493
+    comments: 178
+    blanks: 90
+    files: 6
+  Bash:
+    code: 339
+    comments: 158
+    blanks: 121
+    files: 29
+  Sql:
+    code: 300
+    comments: 561
+    blanks: 6
+    files: 13
+  Css:
+    code: 294
+    comments: 3
+    blanks: 30
+    files: 3
+  Python:
+    code: 265
+    comments: 49
+    blanks: 66
+    files: 2
+  Makefile:
+    code: 105
+    comments: 45
+    blanks: 33
+    files: 1
+  Bitbake:
+    code: 94
+    comments: 5
+    blanks: 8
+    files: 6
+  ForgeConfig:
+    code: 66
+    comments: 0
+    blanks: 9
+    files: 3
+  Html:
+    code: 45
+    comments: 16
+    blanks: 0
+    files: 4
+  JavaScript:
+    code: 31
+    comments: 1
+    blanks: 6
+    files: 2
+  Protobuf:
+    code: 31
+    comments: 37
+    blanks: 13
+    files: 2
+  Ini:
+    code: 25
+    comments: 13
+    blanks: 7
+    files: 3
+  FreeMarker:
+    code: 7
+    comments: 0
+    blanks: 0
+    files: 3
+  Mustache:
+    code: 5
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 156922
+    blanks: 55547
+    files: 3492
+  Text:
+    code: 0
+    comments: 104049
+    blanks: 21799
+    files: 1020
+total:
+  code: 5830617
+  comments: 1069218
+  blanks: 896631
+  files: 41121
 ---
 date: "2026-08-24"
 repo:
