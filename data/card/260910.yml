@@ -2,12 +2,12 @@ about:
   description: "Free and Open Source, Distributed, RESTful Search Engine"
   license: NOASSERTION
   homepage: https://www.elastic.co/products/elasticsearch
-  head: 657b990
+  head: efde966
   archived: false
   latestVersion: "v9.5.3"
   latestRelease: "v9.5.3"
   latestPrerelease: "v9.0.0-rc1"
-  collectedAt: 2026-09-10T05:33:56Z
+  collectedAt: 2026-09-10T20:42:52Z
 timeline:
   created: 2010-02-08
   lastCommit: 2026-09-10
@@ -15,20 +15,20 @@ timeline:
   lastRelease: 2026-09-03
   lastPrerelease: 2025-03-24
 popularity:
-  star: 77899
-  watcher: 2626
-  fork: 26060
+  star: 77903
+  watcher: 2625
+  fork: 26059
   release: 264
   contributor: 2264
-  pullRequest: 111004
-  issue: 47403
+  pullRequest: 111075
+  issue: 47419
 language:
-  Java: 284936622
+  Java: 285395992
   C++: 10849051
-  Groovy: 732644
-  StringTemplate: 404802
+  Groovy: 762026
+  StringTemplate: 413322
   TypeScript: 292418
-  Shell: 198084
+  Shell: 204014
   ANTLR: 97524
   Dockerfile: 44893
   Batchfile: 20184
@@ -43,82 +43,82 @@ language:
   JavaScript: 1268
   Mustache: 58
   FreeMarker: 45
-totalBytes: 297637505
+totalBytes: 298140707
 recent:
   last30d:
     since: 2026-08-11
     release: 7
-    mergedPR: 1320
-    openPR: 357
-    closedIssue: 309
-    openIssue: 279
-    commit: 1096
+    mergedPR: 1392
+    openPR: 352
+    closedIssue: 324
+    openIssue: 280
+    commit: 1143
   last60d:
     since: 2026-07-12
     release: 11
-    mergedPR: 3125
-    openPR: 503
-    closedIssue: 905
-    openIssue: 479
-    commit: 2523
+    mergedPR: 3197
+    openPR: 497
+    closedIssue: 927
+    openIssue: 473
+    commit: 2570
   last90d:
     since: 2026-06-12
     release: 16
-    mergedPR: 4639
-    openPR: 572
-    closedIssue: 1510
-    openIssue: 583
-    commit: 4365
+    mergedPR: 4711
+    openPR: 566
+    closedIssue: 1532
+    openIssue: 577
+    commit: 4412
   last180d:
     since: 2026-03-14
     release: 29
-    mergedPR: 8695
-    openPR: 707
-    closedIssue: 3239
-    openIssue: 914
-    commit: 8383
+    mergedPR: 8767
+    openPR: 701
+    closedIssue: 3263
+    openIssue: 906
+    commit: 8430
   last360d:
     since: 2025-09-15
     release: 58
-    mergedPR: 14962
-    openPR: 863
-    closedIssue: 5134
-    openIssue: 1359
-    commit: 13824
+    mergedPR: 15034
+    openPR: 857
+    closedIssue: 5158
+    openIssue: 1351
+    commit: 13871
   last720d:
     since: 2024-09-20
     release: 100
-    mergedPR: 29904
-    openPR: 1036
-    closedIssue: 9232
-    openIssue: 1926
-    commit: 24114
+    mergedPR: 29976
+    openPR: 1030
+    closedIssue: 9256
+    openIssue: 1918
+    commit: 24164
 total:
   release: 264
-  mergedPR: 96644
-  openPR: 1344
-  closedIssue: 42684
-  openIssue: 4719
-  commit: 105527
+  mergedPR: 96716
+  openPR: 1338
+  closedIssue: 42708
+  openIssue: 4711
+  commit: 105577
 ---
 path: /home/runner/.x-repo/github.com/elastic/elasticsearch
-collectedAt: 2026-09-10T05:37:25Z
+collectedAt: 2026-09-10T20:48:22Z
 loc:
   Java:
-    code: 5231829
-    comments: 801075
-    blanks: 779491
-    files: 32119
+    code: 5239052
+    comments: 802602
+    blanks: 780375
+    files: 32136
   Yaml:
-    code: 386679
-    comments: 6775
-    blanks: 38104
-    files: 2434
+    code: 386931
+    comments: 6788
+    blanks: 38135
+    files: 2446
   Json:
-    code: 207181
+    code: 207249
     comments: 0
     blanks: 35
-    files: 1609
+    files: 1612
   CHeader:
     code: 127773
     comments: 45926
@@ -130,10 +130,10 @@ loc:
     blanks: 6727
     files: 31
   Groovy:
-    code: 15016
-    comments: 1568
-    blanks: 2270
-    files: 104
+    code: 15523
+    comments: 1645
+    blanks: 2351
+    files: 108
   Xml:
     code: 9743
     comments: 1530
@@ -241,8 +241,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 157415
-    blanks: 55689
+    comments: 157458
+    blanks: 55703
     files: 3494
   Text:
     code: 0
@@ -250,10 +250,10 @@ loc:
     blanks: 21831
     files: 1022
 total:
-  code: 6050265
-  comments: 1138246
-  blanks: 922892
-  files: 41383
+  code: 6058315
+  comments: 1139906
+  blanks: 923902
+  files: 41419
 ---
 date: "2026-09-07"
 repo:
