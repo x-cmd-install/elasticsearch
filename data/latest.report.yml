@@ -2,12 +2,12 @@ about:
   description: "Free and Open Source, Distributed, RESTful Search Engine"
   license: NOASSERTION
   homepage: https://www.elastic.co/products/elasticsearch
-  head: 45eeeec
+  head: a35f105
   archived: false
   latestVersion: "v9.5.3"
   latestRelease: "v9.5.3"
   latestPrerelease: "v9.0.0-rc1"
-  collectedAt: 2026-09-11T05:29:04Z
+  collectedAt: 2026-09-11T19:36:03Z
 timeline:
   created: 2010-02-08
   lastCommit: 2026-09-11
@@ -15,20 +15,20 @@ timeline:
   lastRelease: 2026-09-03
   lastPrerelease: 2025-03-24
 popularity:
-  star: 77903
+  star: 77907
   watcher: 2625
-  fork: 26061
+  fork: 26060
   release: 264
   contributor: 2264
-  pullRequest: 111092
-  issue: 47424
+  pullRequest: 111170
+  issue: 47432
 language:
-  Java: 285459435
+  Java: 286000721
   C++: 10849051
   Groovy: 762026
   StringTemplate: 413322
   TypeScript: 292418
-  Shell: 204014
+  Shell: 204215
   ANTLR: 97524
   Dockerfile: 44893
   Batchfile: 20184
@@ -43,77 +43,77 @@ language:
   JavaScript: 1268
   Mustache: 58
   FreeMarker: 45
-totalBytes: 298204150
+totalBytes: 298745637
 recent:
   last30d:
     since: 2026-08-12
     release: 4
-    mergedPR: 1342
-    openPR: 352
-    closedIssue: 301
-    openIssue: 276
-    commit: 1153
+    mergedPR: 1421
+    openPR: 349
+    closedIssue: 324
+    openIssue: 261
+    commit: 1204
   last60d:
     since: 2026-07-13
     release: 11
-    mergedPR: 3119
-    openPR: 501
-    closedIssue: 902
-    openIssue: 469
-    commit: 2580
+    mergedPR: 3202
+    openPR: 492
+    closedIssue: 925
+    openIssue: 454
+    commit: 2631
   last90d:
     since: 2026-06-13
     release: 16
-    mergedPR: 4712
-    openPR: 571
-    closedIssue: 1528
-    openIssue: 580
-    commit: 4422
+    mergedPR: 4795
+    openPR: 562
+    closedIssue: 1551
+    openIssue: 565
+    commit: 4473
   last180d:
     since: 2026-03-15
     release: 29
-    mergedPR: 8773
-    openPR: 708
-    closedIssue: 3256
-    openIssue: 907
-    commit: 8440
+    mergedPR: 8857
+    openPR: 698
+    closedIssue: 3279
+    openIssue: 892
+    commit: 8491
   last360d:
     since: 2025-09-16
     release: 58
-    mergedPR: 14987
-    openPR: 864
-    closedIssue: 5137
-    openIssue: 1350
-    commit: 13881
+    mergedPR: 15071
+    openPR: 854
+    closedIssue: 5160
+    openIssue: 1335
+    commit: 13932
   last720d:
     since: 2024-09-21
     release: 100
-    mergedPR: 29978
-    openPR: 1037
-    closedIssue: 9246
-    openIssue: 1921
-    commit: 24129
+    mergedPR: 30062
+    openPR: 1027
+    closedIssue: 9269
+    openIssue: 1906
+    commit: 24177
 total:
   release: 264
-  mergedPR: 96724
-  openPR: 1345
-  closedIssue: 42710
-  openIssue: 4714
-  commit: 105587
+  mergedPR: 96808
+  openPR: 1334
+  closedIssue: 42734
+  openIssue: 4698
+  commit: 105635
 ---
 path: /home/runner/.x-repo/github.com/elastic/elasticsearch
-collectedAt: 2026-09-11T05:32:24Z
+collectedAt: 2026-09-11T19:40:22Z
 loc:
   Java:
-    code: 5239230
-    comments: 802962
-    blanks: 780278
-    files: 32140
+    code: 5247856
+    comments: 805142
+    blanks: 781638
+    files: 32195
   Yaml:
-    code: 387228
-    comments: 6802
-    blanks: 38158
-    files: 2448
+    code: 387345
+    comments: 6806
+    blanks: 38169
+    files: 2457
   Json:
     code: 207313
     comments: 0
@@ -241,7 +241,7 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 157458
+    comments: 157460
     blanks: 55703
     files: 3494
   Text:
@@ -250,10 +250,10 @@ loc:
     blanks: 21831
     files: 1022
 total:
-  code: 6058854
-  comments: 1140280
-  blanks: 923828
-  files: 41432
+  code: 6067597
+  comments: 1142466
+  blanks: 925199
+  files: 41496
 ---
 date: "2026-09-07"
 repo:
