@@ -49,18 +49,37 @@
   licenses:
     - Elastic License
     - Server Side Public License
-- repo: exherbo
-  subrepo: CleverCloud
-  srcname: web-apps/elasticsearch-bin
-  visiblename: web-apps/elasticsearch-bin
-  version: 7.17.29
-  origversion: null
-  status: legacy
-  summary: Store, search, analyze
+- repo: raspbian_stable
+  subrepo: main
+  srcname: elasticsearch
+  binnames:
+    - libelasticsearch1.7-java
+    - elasticsearch
+  visiblename: elasticsearch
+  version: 1.7.5
+  origversion: 1.7.5-1
+  status: outdated
   maintainers:
-    - fallback-mnt-exherbo@repology
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - bengen@debian.org
   categories:
-    - web-apps
+    - misc
+  vulnerable: true
+- repo: raspbian_testing
+  subrepo: main
+  srcname: elasticsearch
+  binnames:
+    - libelasticsearch1.7-java
+    - elasticsearch
+  visiblename: elasticsearch
+  version: 1.7.5
+  origversion: 1.7.5-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - bengen@debian.org
+  categories:
+    - misc
   vulnerable: true
 - repo: archpower_powerpc64le
   srcname: elasticsearch
@@ -84,18 +103,18 @@
   licenses:
     - Apache
   vulnerable: true
-- repo: pkgsrc_2026_2
-  srcname: databases/elasticsearch
-  binname: elasticsearch
-  visiblename: databases/elasticsearch
-  version: 6.8.8
-  origversion: 6.8.8nb1
-  status: outdated
-  summary: Distributed RESTful Search Engine
+- repo: exherbo
+  subrepo: CleverCloud
+  srcname: web-apps/elasticsearch-bin
+  visiblename: web-apps/elasticsearch-bin
+  version: 7.17.29
+  origversion: null
+  status: legacy
+  summary: Store, search, analyze
   maintainers:
-    - imil@netbsd.org
+    - fallback-mnt-exherbo@repology
   categories:
-    - databases
+    - web-apps
   vulnerable: true
 - repo: exherbo
   subrepo: CleverCloud
@@ -220,6 +239,16 @@
   categories:
     - app-misc
   vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: elasticsearch2
+  visiblename: elasticsearch2
+  version: 2.4.6
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware|Apache-2.0
+  vulnerable: true
 - repo: liguros_stable
   srcname: app-misc/elasticsearch
   visiblename: app-misc/elasticsearch
@@ -303,6 +332,16 @@
     - public-domain
   categories:
     - app-misc
+  vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: elasticsearch1
+  visiblename: elasticsearch1
+  version: 1.7.0
+  origversion: null
+  status: outdated
+  licenses:
+    - Freeware|Apache-2.0
   vulnerable: true
 - repo: liguros_develop
   srcname: app-misc/elasticsearch
@@ -465,6 +504,19 @@
   categories:
     - databases
   vulnerable: true
+- repo: pkgsrc_2026_2
+  srcname: databases/elasticsearch
+  binname: elasticsearch
+  visiblename: databases/elasticsearch
+  version: 6.8.8
+  origversion: 6.8.8nb1
+  status: outdated
+  summary: Distributed RESTful Search Engine
+  maintainers:
+    - imil@netbsd.org
+  categories:
+    - databases
+  vulnerable: true
 - repo: pkgsrc_current
   srcname: databases/elasticsearch
   binname: elasticsearch
@@ -494,48 +546,6 @@
   categories:
     - misc
   vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: elasticsearch
-  binnames:
-    - libelasticsearch1.7-java
-    - elasticsearch
-  visiblename: elasticsearch
-  version: 1.7.5
-  origversion: 1.7.5-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - bengen@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: raspbian_testing
-  subrepo: main
-  srcname: elasticsearch
-  binnames:
-    - libelasticsearch1.7-java
-    - elasticsearch
-  visiblename: elasticsearch
-  version: 1.7.5
-  origversion: 1.7.5-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - bengen@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: elasticsearch1
-  visiblename: elasticsearch1
-  version: 1.7.0
-  origversion: null
-  status: outdated
-  licenses:
-    - Freeware|Apache-2.0
-  vulnerable: true
 - repo: scoop
   subrepo: versions
   binname: elasticsearch5
@@ -546,31 +556,12 @@
   licenses:
     - Freeware|Apache-2.0
   vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: elasticsearch2
-  visiblename: elasticsearch2
-  version: 2.4.6
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware|Apache-2.0
-  vulnerable: true
-- repo: slackbuilds
-  srcname: python/elasticsearch5
-  visiblename: python/elasticsearch5
-  version: 5.5.5
-  origversion: null
-  status: outdated
-  categories:
-    - python
-  vulnerable: true
 - repo: slackbuilds
   srcname: system/elasticsearch
   visiblename: system/elasticsearch
   version: 1.4.2
   origversion: null
-  status: legacy
+  status: outdated
   categories:
     - system
   vulnerable: true
