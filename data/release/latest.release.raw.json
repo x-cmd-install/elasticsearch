@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/elastic/elasticsearch/releases/381917067",
-  "assets_url": "https://api.github.com/repos/elastic/elasticsearch/releases/381917067/assets",
-  "upload_url": "https://uploads.github.com/repos/elastic/elasticsearch/releases/381917067/assets{?name,label}",
-  "html_url": "https://github.com/elastic/elasticsearch/releases/tag/v9.5.3",
-  "id": 381917067,
+  "url": "https://api.github.com/repos/elastic/elasticsearch/releases/389373378",
+  "assets_url": "https://api.github.com/repos/elastic/elasticsearch/releases/389373378/assets",
+  "upload_url": "https://uploads.github.com/repos/elastic/elasticsearch/releases/389373378/assets{?name,label}",
+  "html_url": "https://github.com/elastic/elasticsearch/releases/tag/v9.5.4",
+  "id": 389373378,
   "author": {
     "login": "elastic-vault-github-plugin-prod[bot]",
     "id": 150874479,
@@ -25,32 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAAe_f84Ww5eL",
-  "tag_name": "v9.5.3",
+  "node_id": "RE_kwDOAAe_f84XNV3C",
+  "tag_name": "v9.5.4",
   "target_commitish": "main",
-  "name": "Elasticsearch 9.5.3",
+  "name": "Elasticsearch 9.5.4",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-01T14:46:47Z",
-  "updated_at": "2026-09-03T10:08:41Z",
-  "published_at": "2026-09-03T10:08:41Z",
+  "created_at": "2026-09-09T22:35:01Z",
+  "updated_at": "2026-09-15T18:19:18Z",
+  "published_at": "2026-09-15T18:19:18Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/elastic/elasticsearch/tarball/v9.5.3",
-  "zipball_url": "https://api.github.com/repos/elastic/elasticsearch/zipball/v9.5.3",
-  "body": "Downloads: https://elastic.co/downloads/elasticsearch\nRelease notes: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.5.3-release-notes\n",
-  "reactions": {
-    "url": "https://api.github.com/repos/elastic/elasticsearch/releases/381917067/reactions",
-    "total_count": 2,
-    "+1": 2,
-    "-1": 0,
-    "laugh": 0,
-    "hooray": 0,
-    "confused": 0,
-    "heart": 0,
-    "rocket": 0,
-    "eyes": 0
-  }
+  "tarball_url": "https://api.github.com/repos/elastic/elasticsearch/tarball/v9.5.4",
+  "zipball_url": "https://api.github.com/repos/elastic/elasticsearch/zipball/v9.5.4",
+  "body": "Downloads: https://elastic.co/downloads/elasticsearch\nRelease notes: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.5.4-release-notes\n"
 }
