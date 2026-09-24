@@ -4,7 +4,7 @@
 
 Free and Open Source, Distributed, RESTful Search Engine
 
-[![x-cmd/install — elasticsearch Code Quality Monitoring Repo Card](https://repo.x-cmd.io/elasticsearch.svg)](https://x-cmd.com/install/elasticsearch)
+[![x-cmd/install — elasticsearch Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/elasticsearch.svg)](https://x-cmd.com/install/elasticsearch)
 
 ## Install
 
@@ -14,25 +14,25 @@ x install elasticsearch
 
 ## Code insight
 
-Total: **6,126,441** lines of code across **36653** files in the top 5 languages.
+Total: **6,160,072** lines of code across **36783** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 5,308,607 | 818,204 | 789,784 | 32444 |
-| Yaml | 391,019 | 6,890 | 38,439 | 2546 |
-| Json | 207,897 | 0 | 35 | 1624 |
+| Java | 5,339,312 | 824,131 | 793,776 | 32537 |
+| Yaml | 393,685 | 6,991 | 38,588 | 2581 |
+| Json | 207,987 | 0 | 35 | 1626 |
 | CHeader | 127,788 | 45,937 | 14,760 | 8 |
-| Cpp | 51,779 | 16,052 | 6,722 | 31 |
+| Cpp | 51,785 | 16,055 | 6,721 | 31 |
 
 ## OpenSSF Scorecard
 
-Overall score: **6.1 / 10**
+Overall score: **6.7 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 13/29 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Pinned-Dependencies** (-1/10) — internal error: internal error: invalid Dockerfile: Syntax error - can't find = in "\\\\". Must be of the form: name=val…
 
 ## Source
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v9.5.4` (2026-09-15)
-- **Last commit**: 2026-09-22
+- **Latest**: `v8.19.22` (2026-09-23)
+- **Last commit**: 2026-09-24
 
 ## Popularity
 
-- **Stars**: 77,957 · **Forks**: 26,081 · **Open issues**: 47,655 · **Contributors**: 2,266
+- **Stars**: 77,969 · **Forks**: 26,086 · **Open issues**: 47,713 · **Contributors**: 2,270
 
 ## Totals (cumulative)
 
-- **Releases**: 266 · **Merged PRs**: 97330 · **Open PRs**: 1325 · **Closed issues**: 42904 · **Open issues**: 4751 · **Commits**: 106083
+- **Releases**: 267 · **Merged PRs**: 97480 · **Open PRs**: 1325 · **Closed issues**: 42953 · **Open issues**: 4760 · **Commits**: 106209
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 5 | 1395 | 328 | 285 | 316 | 1028 |
-| last60d | 2026-07-24 | 10 | 2925 | 451 | 803 | 461 | 2418 |
-| 90d | 2026-06-24 | 16 | 4739 | 539 | 1444 | 615 | 4119 |
-| last180d | 2026-03-26 | 28 | 8897 | 676 | 3297 | 916 | 8405 |
-| 360d | 2025-09-27 | 56 | 15106 | 843 | 5149 | 1385 | 13830 |
-| last720d | 2024-10-02 | 100 | 30112 | 1015 | 9335 | 1948 | 24300 |
+| 30d | 2026-08-25 | 6 | 1388 | 322 | 284 | 321 | 1139 |
+| last60d | 2026-07-26 | 11 | 3058 | 447 | 829 | 478 | 2529 |
+| 90d | 2026-06-26 | 17 | 4739 | 543 | 1435 | 621 | 4230 |
+| last180d | 2026-03-28 | 29 | 8984 | 682 | 3325 | 924 | 8516 |
+| 360d | 2025-09-29 | 57 | 15197 | 846 | 5181 | 1395 | 13941 |
+| last720d | 2024-10-04 | 100 | 30116 | 1016 | 9356 | 1953 | 24344 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for elasticsearch lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:48:41Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:40:03Z._
