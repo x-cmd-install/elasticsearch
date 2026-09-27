@@ -14,13 +14,13 @@ x install elasticsearch
 
 ## Code insight
 
-Total: **6,179,285** lines of code across **36883** files in the top 5 languages.
+Total: **6,180,400** lines of code across **36902** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 5,356,305 | 827,800 | 796,132 | 32608 |
-| Yaml | 395,632 | 7,032 | 38,707 | 2610 |
-| Json | 207,987 | 0 | 35 | 1626 |
+| Java | 5,357,253 | 827,968 | 796,306 | 32622 |
+| Yaml | 395,647 | 7,032 | 38,707 | 2611 |
+| Json | 208,135 | 0 | 35 | 1630 |
 | CHeader | 127,788 | 45,937 | 14,760 | 8 |
 | Cpp | 51,785 | 16,055 | 6,721 | 31 |
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v8.19.22` (2026-09-23)
-- **Last commit**: 2026-09-26
+- **Last commit**: 2026-09-27
 
 ## Popularity
 
-- **Stars**: 77,992 · **Forks**: 26,090 · **Open issues**: 47,771 · **Contributors**: 2,273
+- **Stars**: 78,004 · **Forks**: 26,092 · **Open issues**: 47,778 · **Contributors**: 2,273
 
 ## Totals (cumulative)
 
-- **Releases**: 267 · **Merged PRs**: 97589 · **Open PRs**: 1326 · **Closed issues**: 43013 · **Open issues**: 4758 · **Commits**: 106302
+- **Releases**: 267 · **Merged PRs**: 97593 · **Open PRs**: 1344 · **Closed issues**: 43014 · **Open issues**: 4764 · **Commits**: 106307
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 6 | 1352 | 329 | 287 | 318 | 1222 |
-| last60d | 2026-07-28 | 11 | 3014 | 454 | 799 | 475 | 2612 |
-| 90d | 2026-06-28 | 17 | 4834 | 546 | 1482 | 623 | 4313 |
-| last180d | 2026-03-30 | 29 | 9021 | 684 | 3364 | 923 | 8599 |
-| 360d | 2025-10-01 | 57 | 15192 | 848 | 5210 | 1389 | 14024 |
-| last720d | 2024-10-06 | 100 | 30220 | 1017 | 9410 | 1950 | 24386 |
+| 30d | 2026-08-28 | 6 | 1281 | 337 | 265 | 290 | 968 |
+| last60d | 2026-07-29 | 11 | 2940 | 468 | 780 | 474 | 2323 |
+| 90d | 2026-06-29 | 17 | 4790 | 562 | 1475 | 627 | 3885 |
+| last180d | 2026-03-31 | 29 | 8954 | 701 | 3327 | 923 | 8227 |
+| 360d | 2025-10-02 | 57 | 15146 | 864 | 5207 | 1394 | 13778 |
+| last720d | 2024-10-07 | 100 | 30163 | 1035 | 9402 | 1955 | 24386 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for elasticsearch lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T05:40:15Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T06:01:48Z._
