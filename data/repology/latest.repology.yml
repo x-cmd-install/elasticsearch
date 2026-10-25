@@ -1,3 +1,231 @@
+- repo: nix_stable_24_05
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.16
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - albert@peschar.net
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - albert@peschar.net
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - albert@peschar.net
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_stable_25_11
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - albert@peschar.net
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_stable_26_05
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_stable_26_05
+  srcname: elasticsearch7
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_unstable
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_unstable
+  srcname: elasticsearch7
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: openpkg_current
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.29
+  origversion: null
+  status: outdated
+  summary: Enterprise Indexing and Search Server
+  licenses:
+    - Apache
+  categories:
+    - Database
+  vulnerable: true
+- repo: pkgsrc_2026_2
+  srcname: databases/elasticsearch
+  binname: elasticsearch
+  visiblename: databases/elasticsearch
+  version: 6.8.8
+  origversion: 6.8.8nb1
+  status: outdated
+  summary: Distributed RESTful Search Engine
+  maintainers:
+    - imil@netbsd.org
+  categories:
+    - databases
+  vulnerable: true
+- repo: pkgsrc_2026_3
+  srcname: databases/elasticsearch
+  binname: elasticsearch
+  visiblename: databases/elasticsearch
+  version: 6.8.8
+  origversion: 6.8.8nb1
+  status: outdated
+  summary: Distributed RESTful Search Engine
+  maintainers:
+    - imil@netbsd.org
+  categories:
+    - databases
+  vulnerable: true
+- repo: pkgsrc_current
+  srcname: databases/elasticsearch
+  binname: elasticsearch
+  visiblename: databases/elasticsearch
+  version: 6.8.8
+  origversion: 6.8.8nb1
+  status: outdated
+  summary: Distributed RESTful Search Engine
+  maintainers:
+    - imil@netbsd.org
+  categories:
+    - databases
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: elasticsearch
+  binnames:
+    - libelasticsearch1.7-java
+    - elasticsearch
+  visiblename: elasticsearch
+  version: 1.7.5
+  origversion: 1.7.5-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - bengen@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: elasticsearch
+  binnames:
+    - libelasticsearch1.7-java
+    - elasticsearch
+  visiblename: elasticsearch
+  version: 1.7.5
+  origversion: 1.7.5-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - bengen@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: elasticsearch5
+  visiblename: elasticsearch5
+  version: 5.6.16
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware|Apache-2.0
+  vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: elasticsearch2
+  visiblename: elasticsearch2
+  version: 2.4.6
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware|Apache-2.0
+  vulnerable: true
+- repo: slackbuilds
+  srcname: system/elasticsearch
+  visiblename: system/elasticsearch
+  version: 1.4.2
+  origversion: null
+  status: outdated
+  categories:
+    - system
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: elasticsearch
+  binnames:
+    - libelasticsearch1.7-java
+    - elasticsearch
+  visiblename: elasticsearch
+  version: 1.7.3
+  origversion: 1.7.3+dfsg-3
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - bengen@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
 - repo: aur
   srcname: elasticsearch
   binname: elasticsearch
@@ -93,50 +321,40 @@
   licenses:
     - Elastic License
     - Server Side Public License
-- repo: nix_unstable
-  srcname: elasticsearch7
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
-  vulnerable: true
-- repo: openpkg_current
+- repo: raspbian_testing
+  subrepo: main
   srcname: elasticsearch
+  binnames:
+    - libelasticsearch1.7-java
+    - elasticsearch
   visiblename: elasticsearch
-  version: 7.17.29
-  origversion: null
+  version: 1.7.5
+  origversion: 1.7.5-1
   status: outdated
-  summary: Enterprise Indexing and Search Server
-  licenses:
-    - Apache
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - bengen@debian.org
   categories:
-    - Database
+    - misc
   vulnerable: true
-- repo: chocolatey
-  binname: elasticsearch
-  visiblename: Elasticsearch
-  version: 9.5.1
-  origversion: null
-  status: outdated
-  summary: Distributed, scalable, real-time search and analytics engine.
-  vulnerable: true
-- repo: nix_stable_25_05
+- repo: spack
   srcname: elasticsearch
   visiblename: elasticsearch
-  version: 7.17.27
+  version: 8.15.2
   origversion: null
   status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
   maintainers:
-    - albert@peschar.net
-    - v.dijk.bas@gmail.com
+    - fallback-mnt-spack@repology
+  vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: elasticsearch1
+  visiblename: elasticsearch1
+  version: 1.7.0
+  origversion: null
+  status: outdated
   licenses:
-    - Elastic-2.0
+    - Freeware|Apache-2.0
   vulnerable: true
 - repo: aur
   srcname: elasticsearch-bin
@@ -163,6 +381,14 @@
   licenses:
     - Apache
   vulnerable: true
+- repo: chocolatey
+  binname: elasticsearch
+  visiblename: Elasticsearch
+  version: 9.5.1
+  origversion: null
+  status: outdated
+  summary: Distributed, scalable, real-time search and analytics engine.
+  vulnerable: true
 - repo: exherbo
   subrepo: CleverCloud
   srcname: web-apps/elasticsearch-bin
@@ -175,19 +401,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - web-apps
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - albert@peschar.net
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
   vulnerable: true
 - repo: freebsd
   srcname: textproc/elasticsearch8
@@ -285,30 +498,6 @@
     - public-domain
   categories:
     - app-misc
-  vulnerable: true
-- repo: nix_stable_26_05
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
-  vulnerable: true
-- repo: nix_stable_26_05
-  srcname: elasticsearch7
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
   vulnerable: true
 - repo: liguros_stable
   srcname: app-misc/elasticsearch
@@ -429,193 +618,4 @@
     - Apache-2
   categories:
     - databases
-  vulnerable: true
-- repo: nix_stable_24_05
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 7.17.16
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - albert@peschar.net
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - albert@peschar.net
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
-  vulnerable: true
-- repo: nix_unstable
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
-  vulnerable: true
-- repo: pkgsrc_2026_2
-  srcname: databases/elasticsearch
-  binname: elasticsearch
-  visiblename: databases/elasticsearch
-  version: 6.8.8
-  origversion: 6.8.8nb1
-  status: outdated
-  summary: Distributed RESTful Search Engine
-  maintainers:
-    - imil@netbsd.org
-  categories:
-    - databases
-  vulnerable: true
-- repo: pkgsrc_2026_3
-  srcname: databases/elasticsearch
-  binname: elasticsearch
-  visiblename: databases/elasticsearch
-  version: 6.8.8
-  origversion: 6.8.8nb1
-  status: outdated
-  summary: Distributed RESTful Search Engine
-  maintainers:
-    - imil@netbsd.org
-  categories:
-    - databases
-  vulnerable: true
-- repo: pkgsrc_current
-  srcname: databases/elasticsearch
-  binname: elasticsearch
-  visiblename: databases/elasticsearch
-  version: 6.8.8
-  origversion: 6.8.8nb1
-  status: outdated
-  summary: Distributed RESTful Search Engine
-  maintainers:
-    - imil@netbsd.org
-  categories:
-    - databases
-  vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: elasticsearch
-  binnames:
-    - libelasticsearch1.7-java
-    - elasticsearch
-  visiblename: elasticsearch
-  version: 1.7.5
-  origversion: 1.7.5-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - bengen@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: elasticsearch
-  binnames:
-    - libelasticsearch1.7-java
-    - elasticsearch
-  visiblename: elasticsearch
-  version: 1.7.5
-  origversion: 1.7.5-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - bengen@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: raspbian_testing
-  subrepo: main
-  srcname: elasticsearch
-  binnames:
-    - libelasticsearch1.7-java
-    - elasticsearch
-  visiblename: elasticsearch
-  version: 1.7.5
-  origversion: 1.7.5-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - bengen@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: elasticsearch1
-  visiblename: elasticsearch1
-  version: 1.7.0
-  origversion: null
-  status: outdated
-  licenses:
-    - Freeware|Apache-2.0
-  vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: elasticsearch5
-  visiblename: elasticsearch5
-  version: 5.6.16
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware|Apache-2.0
-  vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: elasticsearch2
-  visiblename: elasticsearch2
-  version: 2.4.6
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware|Apache-2.0
-  vulnerable: true
-- repo: slackbuilds
-  srcname: system/elasticsearch
-  visiblename: system/elasticsearch
-  version: 1.4.2
-  origversion: null
-  status: outdated
-  categories:
-    - system
-  vulnerable: true
-- repo: spack
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 8.15.2
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-spack@repology
-  vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: elasticsearch
-  binnames:
-    - libelasticsearch1.7-java
-    - elasticsearch
-  visiblename: elasticsearch
-  version: 1.7.3
-  origversion: 1.7.3+dfsg-3
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - bengen@debian.org
-  categories:
-    - universe/misc
   vulnerable: true
