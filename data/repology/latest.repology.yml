@@ -1,57 +1,3 @@
-- repo: scoop
-  subrepo: versions
-  binname: elasticsearch1
-  visiblename: elasticsearch1
-  version: 1.7.0
-  origversion: null
-  status: outdated
-  licenses:
-    - Freeware|Apache-2.0
-  vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: elasticsearch2
-  visiblename: elasticsearch2
-  version: 2.4.6
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware|Apache-2.0
-  vulnerable: true
-- repo: slackbuilds
-  srcname: system/elasticsearch
-  visiblename: system/elasticsearch
-  version: 1.4.2
-  origversion: null
-  status: outdated
-  categories:
-    - system
-  vulnerable: true
-- repo: spack
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 8.15.2
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-spack@repology
-  vulnerable: true
-- repo: raspbian_testing
-  subrepo: main
-  srcname: elasticsearch
-  binnames:
-    - libelasticsearch1.7-java
-    - elasticsearch
-  visiblename: elasticsearch
-  version: 1.7.5
-  origversion: 1.7.5-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - bengen@debian.org
-  categories:
-    - misc
-  vulnerable: true
 - repo: aur
   srcname: elasticsearch-bin
   binname: elasticsearch-bin
@@ -76,19 +22,6 @@
   summary: Distributed RESTful search engine built on top of Lucene.
   licenses:
     - Apache
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - albert@peschar.net
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
   vulnerable: true
 - repo: chocolatey
   binname: elasticsearch
@@ -187,16 +120,6 @@
   categories:
     - app-misc
   vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: elasticsearch5
-  visiblename: elasticsearch5
-  version: 5.6.16
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware|Apache-2.0
-  vulnerable: true
 - repo: liguros_stable
   srcname: app-misc/elasticsearch
   visiblename: app-misc/elasticsearch
@@ -281,6 +204,16 @@
   categories:
     - app-misc
   vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: elasticsearch5
+  visiblename: elasticsearch5
+  version: 5.6.16
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware|Apache-2.0
+  vulnerable: true
 - repo: liguros_develop
   srcname: app-misc/elasticsearch
   visiblename: app-misc/elasticsearch
@@ -342,6 +275,19 @@
   srcname: elasticsearch
   visiblename: elasticsearch
   version: 7.17.16
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - albert@peschar.net
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.27
   origversion: null
   status: outdated
   summary: Open Source, Distributed, RESTful Search Engine
@@ -508,6 +454,60 @@
   categories:
     - misc
   vulnerable: true
+- repo: raspbian_testing
+  subrepo: main
+  srcname: elasticsearch
+  binnames:
+    - libelasticsearch1.7-java
+    - elasticsearch
+  visiblename: elasticsearch
+  version: 1.7.5
+  origversion: 1.7.5-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - bengen@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: elasticsearch1
+  visiblename: elasticsearch1
+  version: 1.7.0
+  origversion: null
+  status: outdated
+  licenses:
+    - Freeware|Apache-2.0
+  vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: elasticsearch2
+  visiblename: elasticsearch2
+  version: 2.4.6
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware|Apache-2.0
+  vulnerable: true
+- repo: slackbuilds
+  srcname: system/elasticsearch
+  visiblename: system/elasticsearch
+  version: 1.4.2
+  origversion: null
+  status: outdated
+  categories:
+    - system
+  vulnerable: true
+- repo: spack
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 8.15.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - fallback-mnt-spack@repology
+  vulnerable: true
 - repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: elasticsearch
@@ -528,8 +528,8 @@
   srcname: elasticsearch
   binname: elasticsearch
   visiblename: elasticsearch
-  version: 9.5.5
-  origversion: 9.5.5-1
+  version: 9.5.6
+  origversion: 9.5.6-1
   status: newest
   summary: Free and Open, Distributed, RESTful Search Engine
   maintainers:
@@ -554,7 +554,7 @@
   visiblename: web-apps/elasticsearch-bin
   version: 9.5.5
   origversion: null
-  status: newest
+  status: outdated
   summary: Store, search, analyze
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -565,7 +565,7 @@
   visiblename: app-misc/elasticsearch
   version: 9.5.5
   origversion: null
-  status: newest
+  status: outdated
   summary: Free and Open, Distributed, RESTful Search Engine
   maintainers:
     - kangie@gentoo.org
@@ -585,7 +585,7 @@
   visiblename: app-misc/elasticsearch
   version: 9.5.5
   origversion: null
-  status: newest
+  status: outdated
   summary: Free and Open, Distributed, RESTful Search Engine
   maintainers:
     - kangie@gentoo.org
@@ -604,7 +604,7 @@
   subrepo: extras
   binname: elasticsearch
   visiblename: elasticsearch
-  version: 9.5.5
+  version: 9.5.6
   origversion: null
   status: newest
   licenses:
@@ -614,7 +614,7 @@
   visiblename: Elasticsearch
   version: 9.5.5
   origversion: null
-  status: newest
+  status: outdated
   summary: distributed, scalable, and highly available real-time search platform with a RESTful API
   licenses:
     - Elastic License
