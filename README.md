@@ -14,15 +14,15 @@ x install elasticsearch
 
 ## Code insight
 
-Total: **6,554,746** lines of code across **38433** files in the top 5 languages.
+Total: **6,562,854** lines of code across **38466** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 5,697,334 | 892,341 | 837,063 | 33665 |
-| Yaml | 418,327 | 7,560 | 39,868 | 3051 |
-| Json | 216,489 | 0 | 35 | 1672 |
-| CHeader | 127,846 | 45,976 | 14,770 | 8 |
-| Cpp | 52,531 | 16,327 | 6,816 | 37 |
+| Java | 5,704,709 | 893,283 | 837,874 | 33679 |
+| Yaml | 418,699 | 7,573 | 39,908 | 3069 |
+| Json | 216,499 | 0 | 35 | 1673 |
+| CHeader | 127,831 | 45,981 | 14,761 | 8 |
+| Cpp | 52,870 | 16,363 | 6,836 | 37 |
 
 ## OpenSSF Scorecard
 
@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v8.19.25` (2026-11-10)
-- **Last commit**: 2026-11-11
+- **Last commit**: 2026-11-12
 
 ## Popularity
 
-- **Stars**: 78,578 · **Forks**: 26,209 · **Open issues**: 48,836 · **Contributors**: 2,276
+- **Stars**: 78,668 · **Forks**: 26,253 · **Open issues**: 48,880 · **Contributors**: 2,279
 
 ## Totals (cumulative)
 
-- **Releases**: 274 · **Merged PRs**: 100971 · **Open PRs**: 1621 · **Closed issues**: 43956 · **Open issues**: 4880 · **Commits**: 108421
+- **Releases**: 274 · **Merged PRs**: 101076 · **Open PRs**: 1646 · **Closed issues**: 43991 · **Open issues**: 4889 · **Commits**: 108486
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 4 | 2280 | 530 | 377 | 398 | 1209 |
-| last60d | 2026-09-12 | 10 | 3926 | 670 | 835 | 560 | 2467 |
-| 90d | 2026-08-13 | 14 | 5487 | 772 | 1277 | 684 | 3762 |
-| last180d | 2026-05-15 | 29 | 10046 | 960 | 3190 | 945 | 8137 |
-| 360d | 2025-11-16 | 54 | 17019 | 1125 | 5684 | 1420 | 14683 |
-| last720d | 2024-11-21 | 100 | 31508 | 1311 | 9744 | 1994 | 25041 |
+| 30d | 2026-10-13 | 4 | 2258 | 544 | 382 | 407 | 1284 |
+| last60d | 2026-09-13 | 10 | 4027 | 696 | 862 | 570 | 2542 |
+| 90d | 2026-08-14 | 14 | 5535 | 796 | 1290 | 695 | 3837 |
+| last180d | 2026-05-16 | 29 | 10135 | 986 | 3222 | 956 | 8212 |
+| 360d | 2025-11-17 | 54 | 17075 | 1149 | 5712 | 1424 | 14758 |
+| last720d | 2024-11-22 | 100 | 31527 | 1335 | 9774 | 2001 | 25057 |
 
 ## Distribution status
 
-Reported by **44** distros on [repology.org](https://repology.org/project/elasticsearch). **5** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
+Reported by **44** distros on [repology.org](https://repology.org/project/elasticsearch). **6** are ✅ on the latest upstream release, **28** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -81,4 +81,4 @@ Install metadata for elasticsearch lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:04:08Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:28:11Z._
