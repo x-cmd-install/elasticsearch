@@ -34,9 +34,9 @@
   subrepo: CleverCloud
   srcname: web-apps/elasticsearch-bin
   visiblename: web-apps/elasticsearch-bin
-  version: 8.19.24
+  version: 8.19.25
   origversion: null
-  status: outdated
+  status: legacy
   summary: Store, search, analyze
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -163,6 +163,18 @@
   licenses:
     - Elastic License
     - Server Side Public License
+- repo: nix_unstable
+  srcname: elasticsearch7
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
 - repo: nix_stable_25_11
   srcname: elasticsearch
   visiblename: elasticsearch
@@ -172,18 +184,6 @@
   summary: Open Source, Distributed, RESTful Search Engine
   maintainers:
     - albert@peschar.net
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
-  vulnerable: true
-- repo: nix_stable_26_05
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
     - v.dijk.bas@gmail.com
   licenses:
     - Elastic-2.0
@@ -213,7 +213,7 @@
     - web-apps
   vulnerable: true
 - repo: nix_stable_26_05
-  srcname: elasticsearch7
+  srcname: elasticsearch
   visiblename: elasticsearch
   version: 7.17.27
   origversion: null
@@ -308,8 +308,8 @@
   categories:
     - app-misc
   vulnerable: true
-- repo: nix_unstable
-  srcname: elasticsearch
+- repo: nix_stable_26_05
+  srcname: elasticsearch7
   visiblename: elasticsearch
   version: 7.17.27
   origversion: null
@@ -321,7 +321,7 @@
     - Elastic-2.0
   vulnerable: true
 - repo: nix_unstable
-  srcname: elasticsearch7
+  srcname: elasticsearch
   visiblename: elasticsearch
   version: 7.17.27
   origversion: null
