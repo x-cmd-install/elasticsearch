@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/elastic/elasticsearch/releases/431523055",
-  "assets_url": "https://api.github.com/repos/elastic/elasticsearch/releases/431523055/assets",
-  "upload_url": "https://uploads.github.com/repos/elastic/elasticsearch/releases/431523055/assets{?name,label}",
-  "html_url": "https://github.com/elastic/elasticsearch/releases/tag/v9.5.6",
-  "id": 431523055,
+  "url": "https://api.github.com/repos/elastic/elasticsearch/releases/455457629",
+  "assets_url": "https://api.github.com/repos/elastic/elasticsearch/releases/455457629/assets",
+  "upload_url": "https://uploads.github.com/repos/elastic/elasticsearch/releases/455457629/assets{?name,label}",
+  "html_url": "https://github.com/elastic/elasticsearch/releases/tag/v9.5.7",
+  "id": 455457629,
   "author": {
     "login": "elastic-vault-github-plugin-prod[bot]",
     "id": 150874479,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAAe_f84ZuITv",
-  "tag_name": "v9.5.6",
+  "node_id": "RE_kwDOAAe_f84bJbtd",
+  "tag_name": "v9.5.7",
   "target_commitish": "main",
-  "name": "Elasticsearch 9.5.6",
+  "name": "Elasticsearch 9.5.7",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-28T21:58:41Z",
-  "updated_at": "2026-11-02T13:55:02Z",
-  "published_at": "2026-11-02T13:55:02Z",
+  "created_at": "2026-11-18T21:35:56Z",
+  "updated_at": "2026-11-23T13:21:48Z",
+  "published_at": "2026-11-23T13:21:48Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/elastic/elasticsearch/tarball/v9.5.6",
-  "zipball_url": "https://api.github.com/repos/elastic/elasticsearch/zipball/v9.5.6",
-  "body": "Downloads: https://elastic.co/downloads/elasticsearch\nRelease notes: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.5.6-release-notes\n"
+  "tarball_url": "https://api.github.com/repos/elastic/elasticsearch/tarball/v9.5.7",
+  "zipball_url": "https://api.github.com/repos/elastic/elasticsearch/zipball/v9.5.7",
+  "body": "Downloads: https://elastic.co/downloads/elasticsearch\nRelease notes: https://www.elastic.co/docs/release-notes/elasticsearch#elasticsearch-9.5.7-release-notes\n"
 }

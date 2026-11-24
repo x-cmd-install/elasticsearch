@@ -2,8 +2,8 @@
   srcname: elasticsearch
   binname: elasticsearch
   visiblename: elasticsearch
-  version: 9.5.6
-  origversion: 9.5.6-1
+  version: 9.5.7
+  origversion: 9.5.7-1
   status: newest
   summary: Free and Open, Distributed, RESTful Search Engine
   maintainers:
@@ -14,8 +14,8 @@
   srcname: elasticsearch-bin
   binname: elasticsearch-bin
   visiblename: elasticsearch-bin
-  version: 9.5.6
-  origversion: 9.5.6-0
+  version: 9.5.7
+  origversion: 9.5.7-0
   status: newest
   summary: Log analyzer. search, store and analyze logs
   maintainers:
@@ -28,7 +28,7 @@
   visiblename: Elasticsearch
   version: 9.5.6
   origversion: null
-  status: newest
+  status: outdated
   summary: Distributed, scalable, real-time search and analytics engine.
 - repo: exherbo
   subrepo: CleverCloud
@@ -48,7 +48,7 @@
   visiblename: web-apps/elasticsearch-bin
   version: 9.5.6
   origversion: null
-  status: newest
+  status: outdated
   summary: Store, search, analyze
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -84,7 +84,7 @@
   visiblename: textproc/elasticsearch95
   version: 9.5.6
   origversion: null
-  status: newest
+  status: outdated
   summary: Distributed, RESTful search and analytics engine (9 version)
   maintainers:
     - elastic@freebsd.org
@@ -136,7 +136,7 @@
   visiblename: elasticsearch
   version: 9.5.6
   origversion: null
-  status: newest
+  status: outdated
   summary: Free and Open Source, Distributed, RESTful Search Engine
   maintainers:
     - gerardsoleca@github
@@ -148,7 +148,7 @@
   subrepo: extras
   binname: elasticsearch
   visiblename: elasticsearch
-  version: 9.5.6
+  version: 9.5.7
   origversion: null
   status: newest
   licenses:
@@ -158,12 +158,12 @@
   visiblename: Elasticsearch
   version: 9.5.6
   origversion: null
-  status: newest
+  status: outdated
   summary: distributed, scalable, and highly available real-time search platform with a RESTful API
   licenses:
     - Elastic License
     - Server Side Public License
-- repo: nix_unstable
+- repo: nix_stable_26_05
   srcname: elasticsearch7
   visiblename: elasticsearch
   version: 7.17.27
@@ -171,19 +171,6 @@
   status: outdated
   summary: Open Source, Distributed, RESTful Search Engine
   maintainers:
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - albert@peschar.net
     - v.dijk.bas@gmail.com
   licenses:
     - Elastic-2.0
@@ -211,18 +198,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - web-apps
-  vulnerable: true
-- repo: nix_stable_26_05
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
   vulnerable: true
 - repo: gentoo
   srcname: app-misc/elasticsearch
@@ -307,30 +282,6 @@
     - public-domain
   categories:
     - app-misc
-  vulnerable: true
-- repo: nix_stable_26_05
-  srcname: elasticsearch7
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
-  vulnerable: true
-- repo: nix_unstable
-  srcname: elasticsearch
-  visiblename: elasticsearch
-  version: 7.17.27
-  origversion: null
-  status: outdated
-  summary: Open Source, Distributed, RESTful Search Engine
-  maintainers:
-    - v.dijk.bas@gmail.com
-  licenses:
-    - Elastic-2.0
   vulnerable: true
 - repo: liguros_stable
   srcname: app-misc/elasticsearch
@@ -472,6 +423,55 @@
   summary: Open Source, Distributed, RESTful Search Engine
   maintainers:
     - albert@peschar.net
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_stable_25_11
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - albert@peschar.net
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_stable_26_05
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_unstable
+  srcname: elasticsearch
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
+    - v.dijk.bas@gmail.com
+  licenses:
+    - Elastic-2.0
+  vulnerable: true
+- repo: nix_unstable
+  srcname: elasticsearch7
+  visiblename: elasticsearch
+  version: 7.17.27
+  origversion: null
+  status: outdated
+  summary: Open Source, Distributed, RESTful Search Engine
+  maintainers:
     - v.dijk.bas@gmail.com
   licenses:
     - Elastic-2.0
